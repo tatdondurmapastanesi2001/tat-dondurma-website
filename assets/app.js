@@ -62,4 +62,8 @@ if(page==='menu'){var W=$('#menu-welcome'),C=$('#menu-cats'),L=$('#menu-list'),l
  var cur=null;$('#mb',L).onclick=function(){show(C)};$('#ms',L).oninput=function(){render(cur,this.value.trim().toLocaleLowerCase('tr'))};
  $$('li>button',C).forEach(function(b,i){b.onclick=function(){cur=i;$('#ms',L).value='';render(i);show(L)}});
  var bk=$('button[aria-label=Menü]',C);if(bk)bk.onclick=function(){show(W)};var sb=$('button[aria-label^="Ürün ara"]',C);if(sb)sb.onclick=function(){cur=null;render(null);show(L);$('#ms',L).focus()}}
+// ana sayfa arka plan videosu (video/hero.mp4 varsa kullanılır, yoksa fotoğraf geçişi sürer)
+if(page==='home'){var hb=$('.hero-scroll-bg'),cn=navigator.connection||{};
+ if(hb&&!cn.saveData&&!matchMedia('(prefers-reduced-motion: reduce)').matches){var vd=document.createElement('video');vd.className='hero-video';vd.muted=true;vd.loop=true;vd.autoplay=true;vd.playsInline=true;vd.setAttribute('playsinline','');vd.preload='metadata';vd.setAttribute('aria-hidden','true');
+  vd.addEventListener('playing',function(){hb.classList.add('has-video')});vd.addEventListener('error',function(){vd.remove()});vd.src=R+'video/hero.mp4';hb.appendChild(vd);var pr=vd.play();if(pr&&pr.catch)pr.catch(function(){})}}
 })();

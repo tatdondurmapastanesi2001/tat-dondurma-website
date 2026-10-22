@@ -1,0 +1,1 @@
+Ana sayfa arka plan videosunu hero.mp4 adıyla bu klasöre koyun (sessiz, 10-15 sn, 720p, 3-6 MB).
