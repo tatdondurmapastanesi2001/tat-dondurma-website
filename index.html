@@ -1,203 +1,80 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Tat Dondurma & Pastaneleri | 2001'den Beri</title>
-
-  <meta name="description" content="Tat Dondurma & Pastaneleri. Dondurma, pastane ürünleri ve sütlü tatlılarımızı keşfedin. Batıkent ve Bağlıca şubelerimiz.">
-
-  <meta name="theme-color" content="#6b2336">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#741d28">
+  <meta name="description" content="Tat Dondurma & Pastanesi. 2001'den beri dondurma, pasta ve tatlı lezzetleri. Şubelerimizi keşfedin.">
+  <title>Tat Dondurma & Pastanesi | 2001'den Beri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
 </head>
-
 <body>
-
-  <header class="site-header">
-    <a class="brand" href="#anasayfa" aria-label="Tat Dondurma ana sayfa">
-      <span class="brand-name">TAT</span>
-      <span class="brand-subtitle">DONDURMA & PASTANELERİ</span>
-      <span class="brand-since">2001'den beri</span>
+  <div class="announcement"><span>2001'den beri</span><i></i> Her güne eşlik eden tatlı bir mola.</div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Tat Dondurma ana sayfa">
+      <span class="brand-mark"><b>Tat</b><small>Dondurma &amp; Pastanesi</small></span>
     </a>
-
-    <button
-      class="menu-toggle"
-      aria-label="Menüyü aç"
-      aria-expanded="false"
-      aria-controls="main-nav"
-    >
-      ☰
-    </button>
-
-    <nav class="main-nav" id="main-nav">
-      <a href="#anasayfa">Ana Sayfa</a>
-      <a href="#urunler">Ürünlerimiz</a>
-      <a href="#hakkimizda">Hakkımızda</a>
-      <a href="#subeler">Şubelerimiz</a>
-      <a href="#iletisim">İletişim</a>
+    <button class="menu-toggle" aria-label="Menüyü aç" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Ana menü">
+      <a href="#lezzetler">Lezzetler</a><a href="#hikayemiz">Hikâyemiz</a><a href="#subeler">Şubelerimiz</a>
+      <a class="nav-cta" href="#subeler">Bizi Ziyaret Edin <span>↗</span></a>
     </nav>
   </header>
 
   <main>
-
-    <section class="hero" id="anasayfa">
-      <div class="hero-content">
-        <span class="eyebrow">2001'DEN BERİ</span>
-
-        <h1>Her Günün<br>En Tatlı Hâli.</h1>
-
-        <p>
-          Dondurmadan pastane lezzetlerine,
-          Tat'ın özenle hazırlanan dünyasını keşfedin.
-        </p>
-
-        <a class="button button-primary" href="#urunler">
-          Lezzetlerimizi Keşfedin
-        </a>
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> TAT DONDURMA &amp; PASTANESİ</p>
+        <h1>Güzel anların<br><em>tatlı bir</em> parçası.</h1>
+        <p class="hero-text">Dondurmadan pastaya, küçük bir mola için aradığınız lezzetler Tat'ta buluşuyor.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#lezzetler">Lezzetleri keşfet <span>↗</span></a><a class="text-link" href="#hikayemiz">Tat'ın hikâyesi <span>↓</span></a></div>
+        <div class="hero-footnote"><span class="dot"></span> 2001'den beri sofralarınızda</div>
       </div>
+      <div class="hero-visual">
+        <div class="hero-image"></div>
+        <div class="hero-stamp"><span>GÜZEL</span><b>Şeyler</b><span>PAYLAŞILIR</span></div>
+        <div class="hero-caption"><span>01 / TAT'IN DÜNYASI</span><span>Dondurma · Pasta · Tatlı</span></div>
+      </div>
+      <div class="vertical-note">BİR KAŞIK MUTLULUK</div>
+    </section>
 
-      <div class="hero-visual" aria-hidden="true">
-        <span class="hero-decoration">TAT</span>
+    <section class="intro-section section-pad" id="hikayemiz">
+      <div class="section-kicker reveal">BİZİM İÇİN TAT, BİR GELENEK</div>
+      <div class="intro-grid">
+        <h2 class="reveal">Her dilimde özen,<br><em>her lokmada</em> mutluluk.</h2>
+        <div class="intro-copy reveal"><p>2001'den bu yana Tat Dondurma &amp; Pastanesi, günlük hayatın güzel anlarına eşlik ediyor. Paylaşılan bir pasta, serinleten bir dondurma ya da gün ortasında tatlı bir mola…</p><p>Lezzetlerimizi keşfedin, size en yakın şubemizde buluşalım.</p><a class="underlined-link" href="#subeler">Bize daha yakından bakın <span>↗</span></a></div>
       </div>
     </section>
 
-    <section class="intro section" id="hakkimizda">
-      <span class="eyebrow">TAT DONDURMA & PASTANELERİ</span>
-
-      <h2>Lezzetin Adresi, Tat'ın Hikâyesi</h2>
-
-      <p>
-        2001'den beri lezzetlerimizi ve misafirlerimize verdiğimiz
-        değeri aynı özenle yaşatıyoruz. Sizleri Tat'ın dünyasına
-        bekliyoruz.
-      </p>
+    <section class="flavours section-pad" id="lezzetler">
+      <div class="section-heading reveal"><div><p class="eyebrow"><span class="eyebrow-line"></span> TAT'IN VİTRİNİ</p><h2>Bir sonraki favoriniz<br><em>burada olabilir.</em></h2></div><p>Canınız ne çekiyorsa…<br>Lezzet dünyamızda yerini bulun.</p></div>
+      <div class="category-grid">
+        <a class="category-card category-large reveal" href="#subeler"><div class="category-photo icecream"></div><div class="category-overlay"></div><div class="category-number">01</div><div class="category-info"><span>DONDURMA</span><h3>Serinleten<br>mutluluk.</h3><b class="circle-arrow">↗</b></div></a>
+        <a class="category-card reveal" href="#subeler"><div class="category-photo cakes"></div><div class="category-overlay"></div><div class="category-number">02</div><div class="category-info"><span>YAŞ PASTA</span><h3>Kutlamalara<br>eşlik eden.</h3><b class="circle-arrow">↗</b></div></a>
+        <a class="category-card reveal" href="#subeler"><div class="category-photo desserts"></div><div class="category-overlay"></div><div class="category-number">03</div><div class="category-info"><span>SÜTLÜ TATLILAR</span><h3>Tatlı bir<br>kaçamak.</h3><b class="circle-arrow">↗</b></div></a>
+        <a class="category-card reveal" href="#subeler"><div class="category-photo bakery"></div><div class="category-overlay"></div><div class="category-number">04</div><div class="category-info"><span>PASTANE LEZZETLERİ</span><h3>Her ana<br>yakışır.</h3><b class="circle-arrow">↗</b></div></a>
+      </div>
+      <p class="category-note">Ürün çeşitleri şubeye ve günlük hazırlığa göre değişebilir.</p>
     </section>
 
-    <section class="products section" id="urunler">
-      <div class="section-heading">
-        <span class="eyebrow">TAT'IN DÜNYASI</span>
-        <h2>Lezzetlerimiz</h2>
-        <p>Her damak zevkine uygun bir Tat var.</p>
+    <section class="quote-band"><div class="quote-mark">“</div><p>Lezzet, birlikte yaşandığında<br><em>daha güzeldir.</em></p><span>TAT DONDURMA &amp; PASTANESİ</span></section>
+
+    <section class="visit-section section-pad" id="subeler">
+      <div class="visit-heading reveal"><div><p class="eyebrow"><span class="eyebrow-line"></span> YOLUNUZU BEKLİYORUZ</p><h2>Bir Tat molası<br><em>verin.</em></h2></div><p>Size en yakın şubemizi bulun.<br>Kapımızdan içeri bekleriz.</p></div>
+      <div class="branch-list">
+        <article class="branch reveal"><span class="branch-index">01</span><div><h3>Batıkent</h3><p>Kentkoop Mahallesi, 1865. Cadde No:13/B, Yenimahalle / Ankara</p></div><a href="https://www.google.com/maps/search/?api=1&query=Tat+Dondurma+Pastanesi+Bat%C4%B1kent+Ankara" target="_blank" rel="noopener" aria-label="Batıkent şubesi yol tarifi">Yol tarifi <span>↗</span></a></article>
+        <article class="branch reveal"><span class="branch-index">02</span><div><h3>Bağlıca</h3><p>Bağlıca, Etimesgut / Ankara</p></div><a href="https://www.google.com/maps/search/?api=1&query=Tat+Dondurma+Pastanesi+Ba%C4%9Fl%C4%B1ca+Ankara" target="_blank" rel="noopener" aria-label="Bağlıca şubesi yol tarifi">Yol tarifi <span>↗</span></a></article>
       </div>
-
-      <div class="product-grid">
-
-        <a class="product-card" href="#iletisim">
-          <div class="product-image ice-cream-image">
-            <span>DONDURMA</span>
-          </div>
-          <div class="product-info">
-            <h3>Dondurma Çeşitleri</h3>
-            <p>Serinleten, birbirinden özel lezzetler.</p>
-            <span class="text-link">Keşfet ↗</span>
-          </div>
-        </a>
-
-        <a class="product-card" href="#iletisim">
-          <div class="product-image cake-image">
-            <span>PASTANE</span>
-          </div>
-          <div class="product-info">
-            <h3>Pastane Ürünleri</h3>
-            <p>Günün her anına eşlik eden tatlar.</p>
-            <span class="text-link">Keşfet ↗</span>
-          </div>
-        </a>
-
-        <a class="product-card" href="#iletisim">
-          <div class="product-image dessert-image">
-            <span>SÜTLÜ TATLILAR</span>
-          </div>
-          <div class="product-info">
-            <h3>Sütlü Tatlılar</h3>
-            <p>Tatlı molalarınıza eşlik eden seçenekler.</p>
-            <span class="text-link">Keşfet ↗</span>
-          </div>
-        </a>
-
-        <a class="product-card" href="#iletisim">
-          <div class="product-image cafe-image">
-            <span>DAHA FAZLASI</span>
-          </div>
-          <div class="product-info">
-            <h3>Kafe Lezzetleri</h3>
-            <p>Tost, waffle ve diğer lezzetlerimiz.</p>
-            <span class="text-link">Keşfet ↗</span>
-          </div>
-        </a>
-
-      </div>
+      <p class="branch-note">Adres ve iletişim bilgilerini yayına almadan önce kontrol edin.</p>
     </section>
 
-    <section class="story section">
-      <div class="story-content">
-        <span class="eyebrow">BİZİ BİZ YAPAN</span>
-        <h2>Yılların Biriktirdiği Lezzet.</h2>
-        <p>
-          Tat'ın hikâyesi, lezzete duyulan özenle başladı.
-          Bugün de misafirlerimize güzel anlar yaşatmak için
-          çalışıyoruz.
-        </p>
-        <a class="button button-outline" href="#hakkimizda">
-          Tat'ı Tanıyın
-        </a>
-      </div>
-    </section>
-
-    <section class="branches section" id="subeler">
-      <div class="section-heading">
-        <span class="eyebrow">SİZİ BEKLİYORUZ</span>
-        <h2>Şubelerimiz</h2>
-        <p>Tat lezzetlerine size en yakın şubemizde ulaşın.</p>
-      </div>
-
-      <div class="branch-grid">
-        <article class="branch-card">
-          <span class="branch-number">01</span>
-          <h3>Batıkent Merkez</h3>
-          <p>Adres ve yol tarifi bilgileri eklenecek.</p>
-          <a href="#iletisim" class="text-link">
-            Şube Bilgileri ↗
-          </a>
-        </article>
-
-        <article class="branch-card">
-          <span class="branch-number">02</span>
-          <h3>Bağlıca</h3>
-          <p>Adres ve yol tarifi bilgileri eklenecek.</p>
-          <a href="#iletisim" class="text-link">
-            Şube Bilgileri ↗
-          </a>
-        </article>
-      </div>
-    </section>
-
-    <section class="contact section" id="iletisim">
-      <span class="eyebrow">TAT'LA İLETİŞİMDE KALIN</span>
-      <h2>Sizi Bekliyoruz.</h2>
-      <p>Güncel bilgilerimiz ve paylaşımlarımız için bizi takip edin.</p>
-
-      <a
-        class="button button-primary"
-        href="https://www.instagram.com/tatpastanesi.baglica/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Instagram'da Bizi Takip Edin
-      </a>
-    </section>
-
+    <section class="closing-cta"><div class="closing-inner reveal"><span class="closing-label">TAT DONDURMA &amp; PASTANESİ · 2001</span><h2>Güzel bir şeyler<br><em>kendinize ayırın.</em></h2><a href="#lezzetler" class="button button-light">Lezzetleri keşfet <span>↗</span></a></div><div class="closing-orb"></div></section>
   </main>
 
-  <footer class="site-footer">
-    <a class="footer-brand" href="#anasayfa">TAT</a>
-    <p>Tat Dondurma & Pastaneleri · 2001'den beri</p>
-    <p>© <span id="current-year">2026</span> Tat. Tüm hakları saklıdır.</p>
-  </footer>
-
+  <footer class="site-footer"><a class="footer-brand" href="#top">Tat<span>.</span></a><p>Güzel anların tatlı bir parçası.</p><div class="footer-right"><a href="#hikayemiz">Hikâyemiz</a><a href="#lezzetler">Lezzetler</a><a href="#subeler">Şubeler</a></div><small>© <span id="year"></span> Tat Dondurma &amp; Pastanesi</small></footer>
+  <script src="script.js"></script>
 </body>
 </html>
